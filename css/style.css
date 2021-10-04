@@ -22,7 +22,7 @@ table{
     width: 100%;
 }
  tr:nth-child(odd){
-    background-image: linear-gradient(rgb(112, 172, 207) 50%,rgb(112,172,207) 50%);
+    background-image: linear-gradient(to right,rgb(111, 196, 146),rgb(112,172,207));
 }
 
 
@@ -69,4 +69,7 @@ tr{
     align-items: center;
     padding: 5px 5px;
 
+}
+.button:hover{
+    color: red;
 }
