@@ -16,15 +16,15 @@
     margin-right: 20px;
 }
 
-.tablecontent{
-    background-image: linear-gradient(rgb(112, 172, 207) 50%,rgb(112,172,207) 50%);
-}
+
 table{
-    border: 3px chartreuse;
+    border: 3px grey;
     width: 100%;
-    border-collapse: collapse;
+}
+ tr:nth-child(odd){
     background-image: linear-gradient(rgb(112, 172, 207) 50%,rgb(112,172,207) 50%);
 }
+
 
 th,td{
     padding: 15px;
@@ -34,12 +34,14 @@ th,td{
 th{
     height: 30px;
     font-size: 30px;
+    color: purple;
 }
 
-td li{
+th li{
     color: gray;
     list-style: none;
     display: inline-flex;
+    float: left;
 }
 
 .fa-check{
@@ -56,11 +58,15 @@ tr{
 }
 
 .button{
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right: 10px;
     width: 50%;
     height: 40px;
     border-radius: 10px;
     background-color: purple;
     color: white;
+    font-size: 30px;
+    align-items: center;
+    padding: 5px 5px;
+
 }
